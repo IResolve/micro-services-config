@@ -1,0 +1,15 @@
+server: 
+  port: 9000
+spring: 
+  application: 
+    name: users-management-service
+  datasource: 
+    driverClassName: com.mysql.jdbc.Driver
+    password: test
+    url: "jdbc:mysql://localhost/test"
+    username: test
+  jpa: 
+    database: MYSQL
+     hibernate:
+      ddl-auto: create-drop
+      show-sql: true
