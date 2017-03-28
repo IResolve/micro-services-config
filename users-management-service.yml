@@ -14,3 +14,11 @@ spring:
       ddlAuto: create-drop
       dialect: org.hibernate.dialect.MySQL5Dialect
       show-sql: false
+      
+      
+security:
+  basic:
+    enabled: false
+  user:
+    name: user
+    password: user
