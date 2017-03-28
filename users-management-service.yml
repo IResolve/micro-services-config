@@ -8,8 +8,8 @@ spring:
     password: test
     url: "jdbc:mysql://localhost/test"
     username: test
-  jpa: 
-    database: MYSQL
-     hibernate:
-      ddl-auto: create-drop
-      show-sql: true
+
+  jpa:
+    hibernate:
+      ddlAuto: create-drop
+    show-sql: false
