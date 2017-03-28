@@ -12,4 +12,5 @@ spring:
   jpa:
     hibernate:
       ddlAuto: create-drop
+      dialect: org.hibernate.dialect.MySQL5Dialect
     show-sql: false
