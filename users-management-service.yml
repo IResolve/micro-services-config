@@ -5,12 +5,12 @@ spring:
     name: users-management-service
   datasource: 
     driverClassName: com.mysql.jdbc.Driver
-    password: test
-    url: "jdbc:mysql://localhost/test"
-    username: test
-
+    username: root
+    password: root
+    url: jdbc:mysql://localhost/test
+   
   jpa:
     hibernate:
       ddlAuto: create-drop
       dialect: org.hibernate.dialect.MySQL5Dialect
-    show-sql: false
+      show-sql: false
