@@ -8,10 +8,7 @@ spring:
       mongodb.port: 27017
       mongodb.uri: mongodb://localhost/file-storageTT
       mongo.repositories.enabled: true 
-   http:
-      multipart:
-       max-file-size: 1048576KB
-       max-request-size: 1048576KB      
+     
 security:
   basic:
     enabled: false
