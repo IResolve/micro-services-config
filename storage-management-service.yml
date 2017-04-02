@@ -1,8 +1,12 @@
     
 server: 
   port: 9001
-spring:
-   data:
+  
+spring: 
+  application: 
+    name: users-management-service
+
+  data:
       mongodb.host: localhost
       mongodb.port: 27017
       mongodb.uri: mongodb://localhost/file-storageTT
