@@ -4,10 +4,10 @@ spring:
   application: 
     name: bordereaux-service
   datasource: 
-    url: jdbc:oracle:thin:@localhost:1521/orcl
-    username: BASE_BORD
-    password: BASE_BORD
-    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:mysql://localhost:3306/db_bord
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
                    
   jpa:
     hibernate:
